@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 // Configuración de Mongoose
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://steff:12345@cluster0.a8dxh.mongodb.net/Mx_Movies");
+mongoose.connect("mongodb+srv://<user>:<password>@cluster0.a8dxh.mongodb.net/Mx_Movies");
 mongoose.set('debug', true);
 
 // Importar Modelos - Esquemas
